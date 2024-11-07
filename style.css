@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#search {
+    width: 400px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#uploadBtn {
+    padding: 8px 16px;
+    background-color: white;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+}
+
+#videoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.videoCard {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.videoCard img {
+    width: 100%;
+    height: auto;
+}
+
+.videoCard .title {
+    font-weight: bold;
+    padding: 10px;
+  }
